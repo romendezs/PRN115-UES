@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guia2_MS24030_Ej4", "Guia2_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS24030_Guia3_Ej1", "MS24030_Guia3_Ej1\MS24030_Guia3_Ej1.csproj", "{807BFC8E-7DD5-44AE-8AF2-10B61FD429D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS24030_Guia3_Ej2", "MS24030_Guia3_Ej2\MS24030_Guia3_Ej2.csproj", "{FB7817E3-636E-4DA4-A9FE-14AD2EFE7954}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{807BFC8E-7DD5-44AE-8AF2-10B61FD429D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{807BFC8E-7DD5-44AE-8AF2-10B61FD429D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{807BFC8E-7DD5-44AE-8AF2-10B61FD429D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB7817E3-636E-4DA4-A9FE-14AD2EFE7954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7817E3-636E-4DA4-A9FE-14AD2EFE7954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7817E3-636E-4DA4-A9FE-14AD2EFE7954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7817E3-636E-4DA4-A9FE-14AD2EFE7954}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
