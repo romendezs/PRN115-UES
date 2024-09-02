@@ -95,9 +95,9 @@
             label5.AutoSize = true;
             label5.Location = new Point(66, 107);
             label5.Name = "label5";
-            label5.Size = new Size(69, 20);
+            label5.Size = new Size(67, 20);
             label5.TabIndex = 7;
-            label5.Text = "2) Alpina";
+            label5.Text = "2) Cristal";
             // 
             // txtMarca
             // 
@@ -141,6 +141,7 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

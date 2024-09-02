@@ -14,9 +14,17 @@ namespace PRN115_Ejercicio
         {
             try
             {
-                if(txtMarca.Text =="" || txtCantidad.Text == "" || txtNombreCliente.Text == "")
+                if (txtMarca.Text == "" || txtCantidad.Text == "" || txtNombreCliente.Text == "")
                 {
                     throw new Exception("Los campos no pueden estar vacios");
+                }
+                else if (Convert.ToInt32(txtCantidad.Text) < 0)
+                {
+                    throw new Exception("La cantidad de garrafones debe ser mayor a 0");
+                }
+                else if (!(txtMarca.Text == "1") && !(txtMarca.Text == "2"))
+                {
+                    throw new Exception("Seleccione opcion de marca 1 o 2");
                 }
 
                 Venta facturaVenta = new Venta();
@@ -37,6 +45,11 @@ namespace PRN115_Ejercicio
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
