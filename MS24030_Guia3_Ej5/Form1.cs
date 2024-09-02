@@ -34,7 +34,7 @@ namespace MS24030_Guia3_Ej5
 
                 if (factura.Descuento == 0)
                 {
-                    MessageBox.Show($"Total:{factura.Total} \nPasar a Caja por un cupón Promocional");
+                    MessageBox.Show($"Total: ${factura.Total} \nPasar a Caja por un cupón Promocional");
                 }else
                 {
                     MessageBox.Show($"Total: ${factura.Total} \nDescuento aplicado (25%): ${factura.Descontar}");
