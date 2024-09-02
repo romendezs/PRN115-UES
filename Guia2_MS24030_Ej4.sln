@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS24030_Guia3_Ej4", "MS2403
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRN115_Ejercicio", "..\PRN115_Ejercicio\PRN115_Ejercicio\PRN115_Ejercicio.csproj", "{56F09C4C-CAD4-4F3D-A6FB-05ED8C6528DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS24030_Guia3_Ej5", "MS24030_Guia3_Ej5\MS24030_Guia3_Ej5.csproj", "{128ED5BB-A936-44EE-9CC3-7245253EE466}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{56F09C4C-CAD4-4F3D-A6FB-05ED8C6528DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56F09C4C-CAD4-4F3D-A6FB-05ED8C6528DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56F09C4C-CAD4-4F3D-A6FB-05ED8C6528DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128ED5BB-A936-44EE-9CC3-7245253EE466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128ED5BB-A936-44EE-9CC3-7245253EE466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128ED5BB-A936-44EE-9CC3-7245253EE466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128ED5BB-A936-44EE-9CC3-7245253EE466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
