@@ -60,10 +60,18 @@ namespace MS24030_Guia3_Ej1
                 }
             }
 
+            //IVA
+            total = total*0.13 + total;
+
             lblTotal.Text = $"Total: {total.ToString()}";
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvFactura_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS24030_Guia3_Ej1", "MS24030_Guia3_Ej1\MS24030_Guia3_Ej1.csproj", "{A1FAC28B-FC92-4B21-A9B0-11FFF6B4FCBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS24030_Guia3_Ej2", "MS24030_Guia3_Ej2\MS24030_Guia3_Ej2.csproj", "{08080C67-1A59-48EF-B79F-7F0BF231C3CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A1FAC28B-FC92-4B21-A9B0-11FFF6B4FCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1FAC28B-FC92-4B21-A9B0-11FFF6B4FCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1FAC28B-FC92-4B21-A9B0-11FFF6B4FCBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08080C67-1A59-48EF-B79F-7F0BF231C3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08080C67-1A59-48EF-B79F-7F0BF231C3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08080C67-1A59-48EF-B79F-7F0BF231C3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08080C67-1A59-48EF-B79F-7F0BF231C3CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

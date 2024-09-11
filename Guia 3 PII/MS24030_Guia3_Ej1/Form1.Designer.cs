@@ -154,6 +154,7 @@
             this.dgvFactura.RowTemplate.Height = 24;
             this.dgvFactura.Size = new System.Drawing.Size(602, 170);
             this.dgvFactura.TabIndex = 8;
+            this.dgvFactura.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvFactura_CellContentClick);
             // 
             // Repuesto
             // 
