@@ -86,6 +86,11 @@
             // nudPrecio
             // 
             this.nudPrecio.Location = new System.Drawing.Point(229, 89);
+            this.nudPrecio.Maximum = new decimal(new int[] {
+            -1486618624,
+            232830643,
+            0,
+            0});
             this.nudPrecio.Minimum = new decimal(new int[] {
             1,
             0,
